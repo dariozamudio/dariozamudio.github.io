@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    
+}
+header{
+    
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:50px;
+    font-size: 40px;
+ background-color: #8EC5FC;
+ background-image: linear-gradient(34deg, #8EC5FC 0%, #c3fce2 100%);
+ ;
+}
+.encabezado {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.encabezado2{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 50px;
+}
+nav a{
+    
+    background-color:cadetblue;
+    border-radius: 50px;
+    padding: 14px;
+    font-size: 20px;
+    color:aliceblue;
+    text-decoration: none;
+}
+.Datos{
+    background: #EFEFBB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+h3{
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight:bold;
+    
+}
+h4{
+    font-size: 25px;
+}
+ul li{
+   
+    text-decoration: none;
+    list-style-type:square;
+}
+.perfil{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+
+   
+}
+.competencias{
+   
+    display: flex;
+    
+    justify-content:space-evenly;
+}
+.competencias li{
+    margin:30px;
+    list-style-type:square;
+}
+.centrado{
+   
+ width:60%;
+}
+.perfil p{
+    padding-bottom: 50px;
+}
+hr{
+    margin: 0%;
+}
+hr.separador{
+
+    border-top: 1px dotted grey;
+}
+.formacion{
+    /*background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,189,189,1) 0%, rgba(255,216,168,1) 62%, rgba(255,248,168,1) 100.7% );
+    padding-bottom: 50px;*/
+    background-image:url(panal.jpg);
+    padding-bottom: 50px;
+}
+.formacion ul li{
+    list-style-type: none;
+    
+}
+span p{
+    color: gray;
+    margin-top: 0px;
+   
+}
+span h4{
+    margin-bottom: 0px;
+  
+}
+.ventana{
+    background: lightblue;
+    width: 30%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    min-height: 150px;
+    border-radius: 22px;
+    position: fixed;
+    left:34%;
+    top:10%;
+    display:none;
+    justify-content: center;
+
+}
